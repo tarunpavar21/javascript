@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input" type="text">
+    <button id="button">submit</button>
+    <p id="para">you can see textbox value after clicked on submit button!</p>
+    <script>
+        document.getElementById("button").onclick = function(){
+            var val = "";
+            val= document.getElementById("input").value;
+            document.getElementById("para").innerHTML=val;
+            
+
+        }
+    </script>
+
+
+</body>
+</html>
